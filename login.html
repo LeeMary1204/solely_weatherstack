@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html class="weatherstack login">
+
+<head>
+
+    <meta charset="utf-8">
+    <title>Log in - weatherstack</title>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-62924033-23"></script>
+
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-62924033-23');
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K58DCFS');
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <script>
+        window.stripePublishableKey = 'pk_live_SbOhR0mPK55dMckhtbSufjdM';
+    </script>
+
+    <meta name="google-site-verification" content="yDCufI3fgc3DdreycuEwJML88yWxFkTOIv-zorrtGuQ" />
+
+    <meta name="description" content="Log in to your account and manage your billing information, profile, password, API access key and subscription plan." />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="facebook-domain-verification" content="68ni86tlyu91elhzob3vu4dxafstlr" />
+
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="canonical" href="https://weatherstack.com/login">
+    <link rel="shortcut icon" href="./site_images/icon.svg">
+    <link rel="apple-touch-icon" href="./site_images/weatherstack_icon.png">
+
+
+    <link href="./site_css/style.css" rel="stylesheet" media="screen">
+
+    <script src="./site_js/jquery-1.11.3.min.js" type="text/javascript"></script>
+
+</head>
+
+<body class="">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K58DCFS"
+						height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div>
+        <nav class="header ">
+            <div class="container">
+                <div class="logo">
+                    <a title="weatherstack Logo" href="./index.html"><img draggable="false" alt="weatherstack Logo" width="202" height="28" src="./site_images/weatherstack_logo_white.png"></a>
+                </div>
+                <span data-header-toggle="true" class="mobile_menu_icon"></span>
+                <ul>
+                    <li><a title="Pricing Plans" href="./product.html">Pricing</a></li>
+                    <li><a title="API Documentation" href="./documentation.html">Documentation</a></li>
+                    <li><a title="Frequently Asked Questions" href="./faq.html">FAQ</a></li>
+                    <!-- <li><a title="Affiliate Program" href="/affiliates">Affiliates</a></li> -->
+                    <li><a title="apilayer Blog" href="./blog.html">Blog</a></li>
+                    <li class="status"><a title="weatherstack System Status" target="_blank" href="">Status</a></li>
+
+                    <li class="action login"><a title="Log in to your account" href="./login.html">Log In</a></li>
+                    <li class="action cta"><a title="Start using the API" href="./free.html">Sign Up Free</a></li>
+
+                </ul>
+            </div>
+        </nav>
+
+
+
+        <section class="preapp login">
+
+            <div class="container">
+
+                <h2><strong>Log in</strong></h2>
+
+                <form name="login" action="/signin" method="post">
+
+
+                    <fieldset class="alerts hidden">
+
+
+
+                    </fieldset>
+
+                    <fieldset>
+
+                        <div class="line">
+                            <label for="email">Email</label>
+                            <input id="email" type="email" name="email_address" value="" />
+                        </div>
+
+                        <div class="line">
+                            <label for="password">Password <a tabindex="-1" title="Reset your password" class="forgot" href="/forgot">Forgot Password</a></label>
+                            <input id="password" type="password" name="password" value="" />
+                        </div>
+
+                        <label for="submit" class="submit">Log in</label>
+                        <input type="submit" id="submit" class="hidden" name="submit">
+
+                    </fieldset>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <section class="cta in_preapp">
+
+            <div class="container">
+
+                <p><span>Don't have an account yet? Get your API key today — it's free</span> <a title="Get free API access" href="/product">Get Free API Key</a></p>
+
+            </div>
+
+        </section>
+
+        <!-- start template -->
+        <footer>
+            <!-- start product footer -->
+            <div class="container custom-container">
+                <div class="right_side copyright-section">
+                    <div class="footer-logo">
+                        <a href="/"><img draggable="false" class="logo" src="./site_images/weatherstack_logo_footer.png" alt="Weatcherstack Logo" width="197" height="35"></a>
+                    </div>
+                    <div class="social-links">
+                        <div class="github social-logo">
+                            <a target="_blank" href="https://github.com/apilayer/weatherstack"><img draggable="false" src="./site_images/github-original.svg" width="25" height="25"></a>
+                        </div>
+                        <div class="facebook social-logo">
+                            <a target="_blank" href="https://www.facebook.com/APILayer/"><img draggable="false" src="./site_images/facebook-original.svg" width="25" height="25"></a>
+                        </div>
+                        <div class="instagram social-logo">
+                            <a target="_blank" href="https://www.instagram.com/apilayer/"><img draggable="false" src="./site_images/instagram.png" width="25" height="25"></a>
+                        </div>
+                        <div class="youtube social-logo">
+                            <a target="_blank" href="https://www.youtube.com/channel/UCwDncja3klyMhkKXWV1zoNQ"><img draggable="false" src="./site_images/youtube.png" width="25" height="25"></a>
+                        </div>
+                        <div class="twitter social-logo">
+                            <a target="_blank" href="https://twitter.com/apilayer/"><img draggable="false" src="./site_images/twitter-original.svg" width="25" height="25"></a>
+                        </div>
+                        <div class="linkedin social-logo">
+                            <a target="_blank" href="https://www.linkedin.com/authwall?trk=ripf&trkInfo=AQESw3_dz9mOEAAAAYMMykyAXLrKWTKL3Q6geO69ZLgKpP17rEgX7iUGjaigeEGynL1Rie-9w6to3tGsRihPBx-uPO7pGgRqEJ4FblxJDHlbg_VON-P_QB1Wzu_fRjrA8auiqyg=&original_referer=https://apilayer.com/&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fapilayer%2F"><img draggable="false" src="./site_images/linkedin-original.svg" width="25" height="25"></a>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="heading">PRODUCT</li>
+                    <li><a href="/product" hreflang="en">Pricing</a></li>
+                    <li><a target="_blank" href="https://apilayer.com/provider" hreflang="en">List Your API</a>
+                    </li>
+                    <li><a target="_blank" href="https://apilayer.com/why-choose-apilayer" hreflang="en">Why choose us?</a>
+                    </li>
+                    <li><a target="_blank" href="https://apilayer.com/marketplace" hreflang="en">Marketplace</a></li>
+                    <!-- <li><a title="Affiliate Program" href="/affiliates">Affiliates</a></li> -->
+                </ul>
+                <ul>
+                    <li class="heading">DOCS & HELP</li>
+                    <li><a href="/documentation" hreflang="en">Documentation</a></li>
+                    <li><a href="https://blog.weatherstack.com/" hreflang="en">Blog</a></li>
+                    <li><a href="/faq" hreflang="en">FAQs</a></li>
+                    <li><a target="_blank" href="https://apilayer.com/press" hreflang="en">Press</a></li>
+                    <li><a href="/api-glossary" hreflang="en">API Glossary</a></li>
+                </ul>
+                <ul>
+                    <li class="heading">ACCOUNT</li>
+                    <li><a href="/login" hreflang="en">Log In</a></li>
+                    <li><a href="/forgot" hreflang="en">Forgot Password</a></li>
+                    <li><a href="/signup/free" hreflang="en">FREE Signup</a></li>
+                </ul>
+                <ul>
+                    <li class="heading">GET IN TOUCH</li>
+                    <li><a class="apilayer-support" hreflang="en">Contact</a></li>
+                    <li><a class="apilayer-support" hreflang="en">Get a quote</a></li>
+                </ul>
+
+                <div id="ownership-popup" class="overlay" style="display:none;">
+                    <div class="popup">
+                        <img src="./site_images/Api-PopUp-Banner.png">
+                    </div>
+                </div>
+            </div>
+            <!-- end product footer -->
+            <div class="container">
+                <div class="copyright-link">
+                    <a target="_blank" href="https://www.ideracorp.com/legal/APILayer">Imprint / Legal</a> | <a target="_blank" href="https://www.ideracorp.com/Legal/APILayer/PrivacyStatement">Privacy</a> | <a target="_blank" href="https://www.ideracorp.com/Legal/Terms-of-Use">Terms</a>                    | <a target="_blank" href="https://www.ideracorp.com/Legal/APILayer/PrivacyStatement">Cookie Preference</a> | <a href="https://weatherstack.com/sitemap.php">Sitemap</a>
+                </div>
+                <div class="copyright-text">
+                    <span>© 2022 Weatherstack API, an <a target="_blank" href="https://apilayer.com/">APILayer</a>  product. All rights reserved.</span>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./site_js/scripts.js"></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
+    <script src="/js/shared/countries.js" defer="defer" id="countries">
+        {
+            "Australia": ["New South Wales", "Queensland", "South Australia", "Tasmania", "Victoria", "Western Australia"],
+            "Brazil": ["Acre", "Alagoas", "Amap\u00e1", "Amazonas", "Bahia", "Cear\u00e1", "Distrito Federal", "Esp\u00edrito Santo", "Goi\u00e1s", "Maranh\u00e3o", "Mato Grosso", "Mato Grosso do Sul", "Minas Gerais", "Paran\u00e1", "Para\u00edba", "Par\u00e1", "Pernambuco", "Piau\u00ed", "Rio Grande do Norte", "Rio Grande do Sul", "Rio de Janeiro", "Rond\u00f4nia", "Roraima", "Santa Catarina", "Sergipe", "S\u00e3o Paulo", "Tocantins"],
+            "Canada": ["Alberta", "British Columbia", "Manitoba", "New Brunswick", "Newfoundland and Labrador", "Northwest Territories", "Nova Scotia", "Nunavut", "Ontario", "Prince Edward Island", "Quebec", "Saskatchewan", "Yukon"],
+            "Ethiopia": ["Addis Ababa", "Afar", "Amhara", "Benshangul-Gumaz", "Dire Dawa", "Gambela Peoples", "Harari People", "Oromia", "Somali", "Southern Nations, Nationalities and Peoples", "Tigray"],
+            "Germany": ["Baden-W\u00fcrttemberg", "Bayern", "Berlin", "Brandenburg", "Bremen", "Hamburg", "Hessen", "Mecklenburg-Vorpommern", "Niedersachsen", "Nordrhein-Westfalen", "Rheinland-Pfalz", "Saarland", "Sachsen", "Sachsen-Anhalt", "Schleswig-Holstein", "Th\u00fcringen"],
+            "India": ["Andhra Pradesh", "Arunachal Pradesh", "Assam", "Bihar", "Chhattisgarh", "Goa", "Gujarat", "Haryana", "Himachal ", "Jammu and Kashmir", "Jharkhand ", "Karnataka", "Kerala", "Madhya ", "Maharashtra", "Manipur", "Meghalaya", "Mizoram", "Nagaland", "Orissa", "Pradesh", "Pradesh", "Punjab", "Rajasthan", "Sikkim", "Tamil Nadu", "Tripura", "Uttar Pradesh", "Uttaranchal", "West Bengal"],
+            "Mexico": ["Aguascalientes", "Baja California", "Baja California Sur", "Campeche", "Chiapas", "Chihuahua", "Coahuila", "Colima", "Distrito Federal", "Durango", "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Michoac\u00e1n", "Morelos", "M\u00e9xico", "Nayarit", "Nuevo Le\u00f3n", "Oaxaca", "Puebla", "Quer\u00e9taro", "Quintana Roo", "San Luis Potos\u00ed", "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz", "Yucat\u00e1n", "Zacatecas"],
+            "Micronesia, Federated States of": ["Chuuk", "Kosrae", "Pohnpei", "Yap"],
+            "Myanmar": ["Ayeyarwady", "Bago", "Chin", "Kachin", "Kayah", "Kayin", "Magway", "Mandalay", "Mon", "Rakhine", "Sagaing", "Shan", "Tanintharyi", "Yangon"],
+            "Nigeria": ["Abia", "Abuja Federal Capital Territory", "Adamawa", "Akwa Ibom", "Anambra", "Bauchi", "Bayelsa", "Benue", "Borno", "Cross River", "Delta", "Ebonyi", "Edo", "Ekiti", "Enugu", "Gombe", "Imo", "Jigawa", "Kaduna", "Kano", "Katsina", "Kebbi", "Kogi", "Kwara", "Lagos", "Nassarawa", "Niger", "Ogun", "Ondo", "Osun", "Oyo", "Plateau", "Rivers", "Sokoto", "Taraba", "Yobe", "Zamfara"],
+            "Palau": ["Aimeliik", "Airai", "Angaur", "Hatobohei", "Kayangel", "Koror", "Melekeok", "Ngaraard", "Ngarchelong", "Ngardmau", "Ngatpang", "Ngchesar", "Ngeremlengui", "Ngiwal", "Peleliu", "Sonsorol"],
+            "South Sudan": ["Central Equatoria", "Eastern Equatoria", "Jonglei", "Lakes", "Northern Bahr el Ghazal", "Unity", "Upper Nile", "Warrap", "Western Bahr el Ghazal", "Western Equatoria"],
+            "United Arab Emirates": ["Abu Dhabi", "Ajman", "Dubai", "Fujairah", "Ra's al-Khaimah", "Sharjah", "Umm al-Qaiwain"],
+            "United States": ["Alabama ", "Alaska", "American Samoa", "Arizona", "Arkansas", "California", "Colorado", "Connecticut", "Delaware", "District of Columbia", "Florida", "Georgia ", "Guam", "Hawaii", "Idaho", "Illinois", "Indiana", "Iowa", "Kansas", "Kentucky", "Louisiana", "Maine", "Maryland", "Massachusetts", "Michigan", "Minnesota", "Mississippi", "Missouri", "Montana", "Nebraska", "Nevada", "New Hampshire", "New Jersey", "New Mexico", "New York ", "North Carolina", "North Dakota", "Northern Mariana Islands", "Ohio", "Oklahoma", "Oregon", "Pennsylvania", "Puerto Rico", "Rhode Island", "South Carolina", "South Dakota", "Tennessee", "Texas", "Utah", "Vermont", "Virgin Islands", "Virginia", "Washington", "West Virginia", "Wisconsin", "Wyoming"]
+        }
+    </script>
+</body>
+
+</html>
